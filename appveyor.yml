@@ -14,3 +14,7 @@ install:
   
 build_script:  
   - go build -o certigo
+
+artifacts:  
+  - path: certigo
+    name: binary
